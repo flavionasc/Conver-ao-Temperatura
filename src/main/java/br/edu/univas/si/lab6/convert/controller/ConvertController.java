@@ -20,7 +20,7 @@ public class ConvertController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Float celsius = Float.valueOf(request.getParameter("celsius"));
 		
-		Float convertIndex = ConvertService.getIndex(celcius);
+		Float convertIndex = ConvertService.getIndex(celsius);
 		
 		response.getWriter().append(convertIndex.toString());
 	}
