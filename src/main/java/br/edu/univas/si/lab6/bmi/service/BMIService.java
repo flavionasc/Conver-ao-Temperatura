@@ -1,16 +1,17 @@
-package br.edu.univas.si.lab6.bmi.service;
+package br.edu.univas.si.lab6.convert.service;
 
-public class BMIService {
+public class ConvertService {
 	
-	private BMIService() {
-		//To avoid a new instance of BMIService class
+	private ConvertService() {
+		//To avoid a new instance of ConvertService class
 	}
 	
-	public static Float getIndex(Float weight, Float height) {
-		return weight / (height * height);
+	public static Float getIndex(Float celcius) {
+		return ((celsius * 1.8)+32);
+		
 	}
 	
-	public static String getDescription(Float bmiIndex) {
+	public static String getDescription(Float convertIndex) {
 		//TODO to be implemented as home work
 		return "";
 	}
