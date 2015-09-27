@@ -1,9 +1,9 @@
-var ConvertServices = {
+var ConvertService = {
 
       getIndex : function(celsius,callback){
       
           $.ajax({
-              url: 'services/',
+              url: 'ConvertController',
               data: {'celsius':celsius},
               success : function(result) {
                   callback(parseFloat(result));

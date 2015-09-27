@@ -8,13 +8,13 @@
 	<servlet>
 		<description>
 		</description>
-		<display-name>BMIController</display-name>
-		<servlet-name>BMIController</servlet-name>
-		<servlet-class>br.edu.univas.si.lab6.bmi.controller.BMIController</servlet-class>
+		<display-name>ConvertController</display-name>
+		<servlet-name>ConvertController</servlet-name>
+		<servlet-class>br.edu.univas.si.lab6.convert.controller.ConvertController</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>BMIController</servlet-name>
-		<url-pattern>/BMIController</url-pattern>
+		<servlet-name>ConvertController</servlet-name>
+		<url-pattern>/ConvertController</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>

@@ -6,8 +6,8 @@ public class ConvertService {
 		//To avoid a new instance of ConvertService class
 	}
 	
-	public static Float getIndex(Float celsius) {
-		return ((celsius * 1.8)+32);
+	public static  Float getIndex(Float celsius) {
+		return (float)((celsius * 1.8)+32);
 		
 	}
 	

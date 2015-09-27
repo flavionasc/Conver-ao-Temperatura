@@ -23,7 +23,7 @@ var ConvertController = {
     };
             
             ConvertController.showLoading(true);
-            ConvertServices.getIndex(celsius,callback);
+            ConvertService.getIndex(celsius,callback);
         
     },
     showResult: function(result){
